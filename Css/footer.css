@@ -1,0 +1,122 @@
+.foot{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: black;
+}
+#bar{
+    height: 10px;
+}
+#bar img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+#about{
+    width: 100%;
+    background: #2B3134;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.column {
+    width: 29%;
+    padding: 30px;
+    margin: 0px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.column .column-data { 
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    float: left;
+}
+
+.column .column-data:nth-child(1) {
+    width: 20%; 
+}
+
+.column .column-data:nth-child(2) {
+    width: 80%;
+}
+
+.column .column-data i {
+    margin-top: 15px;
+    padding: 0px;
+}
+
+.column .column-data h2, .column .column-data p{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    text-justify: distribute;
+}
+
+@media (max-width: 1475px){
+    #cloud{
+        padding: 0;
+    }
+    #cloud .column-data{
+        display: none;
+    }
+    .column .column-data:nth-child(1) {
+        width: 100%;
+        margin-left: 35%;
+        margin-top: -10%;
+    }
+    .column .column-data:nth-child(2) {
+        width: 100%;
+        margin-left: 1%;
+        margin-bottom: -8%;
+        margin-top: 1%;
+    }
+}
+
+#contact{
+    background: #1E2326;
+    width: 100%;
+    display: block;
+}
+#contact a{
+    color: #428FD6;
+}
+
+.set{
+    display: inline-block;
+}
+#rr{
+    position: relative;
+    bottom: 4px;
+    margin-left: 3%;
+    margin-bottom: 5px;
+}
+#links{
+    margin-left: 37%; 
+    margin-top: 0px;
+    padding-top: 6px;
+}
+#legal{
+    position: relative;
+    bottom: 5px;
+    margin-left: 33%;
+}
+
+@media (max-width: 1670px){
+    #legal{
+        display: none;
+    }
+    #links{
+        margin-left: 70%;
+        margin-bottom: 1%;
+    }
+    #rr{
+        bottom: -35px;
+        margin-left: 15%;
+    }
+}
